@@ -58,6 +58,11 @@
   height: 25px;
   border: 1px solid red;
   margin-bottom: 200px;
+  font-family: var(--font-404);
+  font-size: var(--font-404-size);
+  font-weight: var(--font-404-weight);
+  line-height: 25.18px;
+  letter-spacing: -3.7px;
 }
 
 .middle-section {
@@ -66,6 +71,7 @@
   border: 1px solid red;
   margin-bottom: 308px;
 }
+
 .made-by {
   height: 17px;
   width: 287px;
