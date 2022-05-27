@@ -36,17 +36,15 @@
 .responsive-container {
   max-width: 1440px;
   max-height: 1080px;
-  /* height: 100vh; */
   margin: 0 auto;
-  /* border: 1px solid red; */
+  transform: scale(0.91);
   padding: 40px 119px 24px 72px;
-  /* max-height: 100; */
 }
 
 .page-container {
   height: 1016px;
   width: 91.75vw;
-  /* border: 1px solid blue; */
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,7 +54,7 @@
 .four-zero-four {
   width: 133px;
   height: 25px;
-  border: 1px solid red;
+
   margin-bottom: 200px;
   font-family: var(--font-404);
   font-size: var(--font-404-size);
@@ -68,7 +66,7 @@
 .middle-section {
   width: 1321.2px;
   height: 466px;
-  border: 1px solid red;
+
   margin-bottom: 308px;
   display: flex;
   flex-direction: row;
@@ -78,7 +76,7 @@
 .image {
   width: 539.22px;
   height: 414.25px;
-  border: 1px solid red;
+
   align-self: flex-start;
   background-image: url("img/Scarecrow.png");
   background-size: cover;
@@ -89,7 +87,7 @@
 .text {
   width: 586px;
   height: 466px;
-  border: 1px solid red;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -116,14 +114,35 @@
   font-weight: var(--font-body-weight);
   font-size: var(--font-body-size);
   color: var(--font-body-color);
-  border: 1px solid red;
+
   line-height: 36px;
   margin-bottom: 64px;
+}
+.button {
+  height: 68px;
+  width: 216px;
+  text-align: center;
+  background-color: var(--button-bg-color);
+  font-family: var(--font-button);
+  font-weight: var(--font-button-weight);
+  font-size: var(--font-button-size);
+  color: var(--font-button-color);
+  font-style: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .made-by {
   height: 17px;
   width: 287px;
-  border: 1px solid red;
+
   align-self: center;
+  font-family: var(--madeby-font);
+  font-size: var(--madeby-font-size);
+  font-weight: var(--madeby-font-weight);
+  color: var(--madeby-font-color);
 }
