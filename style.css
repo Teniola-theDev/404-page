@@ -70,6 +70,25 @@
   height: 466px;
   border: 1px solid red;
   margin-bottom: 308px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 539.22px;
+  height: 414.25px;
+  border: 1px solid red;
+  align-self: flex-start;
+  background-image: url("img/Scarecrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text {
+  width: 586px;
+  height: 466px;
+  border: 1px solid red;
 }
 
 .made-by {
