@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono:ital@1&display=swap");
+
+:root {
+  --font-404: "Inconsolata", monospace;
+  --font-404-size: 24px;
+  --font-404-weight: 700;
+  --font-404-color: #333333;
+
+  --font-heading: "Space Mono", monospace;
+  --font-heading-size: 64px;
+  --font-heading-weight: 700;
+  --font-heading-color: #333333;
+
+  --font-body: "Space Mono", monospace;
+  --font-body-size: 24px;
+  --font-body-weight: 400;
+  --font-body-color: #4f4f4f;
+
+  --font-button: "Space Mono", monospace;
+  --font-button-size: 14px;
+  --font-button-weight: 700;
+  --font-button-color: #ffffff;
+  --button-bg-color: #333333;
+
+  --madeby-font: "Montserrat", sans-serif;
+  --madeby-font-weight: 700;
+  --madeby-font-size: 14px;
+  --madeby-font-color: #bdbdbd;
+}
+.responsive-container {
+  max-width: 1440px;
+  max-height: 1080px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  padding: 40px 119px 24px 72px;
+  /* max-height: 100; */
+}
+
+.page-container {
+  height: 1016px;
+  width: 91.75vw;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.four-zero-four {
+  width: 133px;
+  height: 25px;
+  border: 1px solid red;
+  margin-bottom: 200px;
+}
+
+.middle-section {
+  width: 1321.2px;
+  height: 466px;
+  border: 1px solid red;
+  margin-bottom: 308px;
+}
+.made-by {
+  height: 17px;
+  width: 287px;
+  border: 1px solid red;
+  align-self: center;
+}
