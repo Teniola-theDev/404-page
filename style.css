@@ -146,3 +146,144 @@
   font-weight: var(--madeby-font-weight);
   color: var(--madeby-font-color);
 }
+.button:hover {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #333333;
+}
+.button:active {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+@media screen and (max-width: 400px) {
+  .responsive-container {
+    max-width: 1440px;
+    max-height: 1080px;
+    margin: 0 auto;
+    /* transform: scale(0.91); */
+    padding: 20px 0px 24px 24px;
+  }
+
+  .page-container {
+    height: 949px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .four-zero-four {
+    width: 133px;
+    height: 25px;
+    margin-bottom: 64px;
+    font-family: var(--font-404);
+    font-size: var(--font-404-size);
+    font-weight: var(--font-404-weight);
+    line-height: 25.18px;
+    letter-spacing: -3.7px;
+  }
+
+  .middle-section {
+    width: 350px;
+    height: 799px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 0;
+  }
+  .image {
+    height: 238px;
+    width: 286.9px;
+    background-image: url("img/Scarecrow.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+  }
+
+  .text {
+    width: 350px;
+    height: 387px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-bottom: 114px;
+  }
+
+  .header {
+    height: 142px;
+    width: 350px;
+    font-family: var(--font-heading);
+    font-weight: var(--font-heading-weight);
+    font-size: 48px;
+    color: var(--font-heading-color);
+    line-height: 71.09px;
+    letter-spacing: -3px;
+    font-style: bold;
+    margin-bottom: 30px;
+  }
+
+  .body {
+    height: 81px;
+    width: 328px;
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--font-body-color);
+
+    line-height: 27px;
+    margin-bottom: 66px;
+    /* font-family: Space Mono; */
+
+    letter-spacing: -0.035em;
+    text-align: left;
+  }
+  .button {
+    height: 68px;
+    width: 216px;
+    text-align: center;
+    background-color: var(--button-bg-color);
+    font-family: var(--font-button);
+    font-weight: var(--font-button-weight);
+    font-size: var(--font-button-size);
+    color: var(--font-button-color);
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .made-by {
+    height: 17px;
+    width: 287px;
+
+    align-self: center;
+    font-family: var(--madeby-font);
+    font-size: var(--madeby-font-size);
+    font-weight: var(--madeby-font-weight);
+    color: var(--madeby-font-color);
+    margin: 0;
+  }
+  .button:hover {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #333333;
+  }
+  .button:active {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #333333;
+    /* transition: background-color 1s ease-in-out; */
+  }
+}
